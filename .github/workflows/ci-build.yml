@@ -45,3 +45,4 @@ jobs:
           BRANCH: gh-pages
           FOLDER: doc/build/html
           CLEAN: true
+          FORCE: false
