@@ -1,7 +1,7 @@
 OpenAPI-Common
 --------------
 OpenAPI-Common provides the source code for authentication-aware clients for
-OpenAPI client libraries.This Python library is intended for use with the custom code
+OpenAPI client libraries. This Python library is intended for use with the custom code
 generation template in the `PyAnsys project <https://github.com/pyansys>`_.
 
 OpenAPI-Common currently supports authentication with Basic, Negotiate, NTLM,

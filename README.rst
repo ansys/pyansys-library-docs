@@ -7,8 +7,8 @@ specific products nor single-purpose tools. They are libraries to
 facilitate code-sharing across different PyAnsys packages within
 the PyAnsys project.
 
-These are expanding and developing libraries. Feel free
-to post issues on the `Issues <https://github.com/pyansys/pyansys-library-docs/issues>_`
-page. For additional support, contact `PyAnsys Support
-<mailto:pyansys.support@ansys.com>`_, asking team members to
-route your requests to the appropriate development teams.
+As shared components continue to be developed and created, feel free
+to post issues on the **Issues** pages for their respective
+GitHub repositories. For additional support, contact
+`PyAnsys Support <mailto:pyansys.support@ansys.com>`_ so that
+team members can route your requests to appropriate development teams.
