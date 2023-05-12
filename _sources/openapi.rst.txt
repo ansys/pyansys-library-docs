@@ -1,11 +1,10 @@
-OpenAPI Common Library
-----------------------
-The ``openapi-common`` repository provides the source code for
-authentication-aware clients for OpenAPI client libraries.
-
-The PyAnsys Open API Common library is intended for use with the custom code
+OpenAPI-Common
+--------------
+OpenAPI-Common provides the source code for authentication-aware clients for
+OpenAPI client libraries. This Python library is intended for use with the custom code
 generation template in the `PyAnsys project <https://github.com/pyansys>`_.
-This library currently supports authentication with Basic, Negotiate, NTLM,
+
+OpenAPI-Common currently supports authentication with Basic, Negotiate, NTLM,
 and OpenID Connect. Most features of the underlying requests session are
 exposed for use. Some basic configuration is also provided by default.
 
@@ -21,8 +20,8 @@ Install ``openapi-common`` with:
 Usage
 ~~~~~
 The package exposes several classes, including a client
-:py:class:`~ansys.openapi.common.ApiClient` and a builder
-:py:class:`~ansys.openapi.common.ApiClientFactory` that allow a client library
+:py:class:`~ansys.openapi.common.ApiClient` class and a builder
+:py:class:`~ansys.openapi.common.ApiClientFactory` class that allow a client library
 to configure a connection to an API.
 
 The :py:class:`~ansys.openapi.common.ApiClient` class is intended to be wrapped
@@ -46,7 +45,8 @@ provide additional configuration with the
    ...           .connect()
    <ApiClient url: https://my-api.com/v1.svc>
 
-Resources and Links
+
+Resources and links
 ~~~~~~~~~~~~~~~~~~~
 For more information, see:
 
