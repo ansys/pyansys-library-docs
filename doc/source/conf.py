@@ -21,7 +21,7 @@ html_theme_options = {
 }
 
 intersphinx_mapping = {
-    'openapi-common': ('https://openapi.docs.pyansys.com/', None)
+    'openapi-common': ('https://openapi.docs.ansys.com/', None)
 }
 
 # Sphinx extensions
