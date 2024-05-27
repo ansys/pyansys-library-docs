@@ -14,14 +14,14 @@ release = version = '1.2.0'
 html_logo = pyansys_logo_black
 html_theme = 'ansys_sphinx_theme'
 html_theme_options = {
-    "github_url": "https://github.com/pyansys/",
+    "github_url": "https://github.com/ansys/",
     "show_prev_next": False,
     "show_breadcrumbs": True,
     "additional_breadcrumbs": [("PyAnsys Documentation", "https://docs.pyansys.com")]
 }
 
 intersphinx_mapping = {
-    'openapi-common': ('https://openapi.docs.ansys.com/', None)
+    'openapi-common': ('https://openapi.docs.pyansys.com/', None)
 }
 
 # Sphinx extensions
