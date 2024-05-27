@@ -1,0 +1,14 @@
+documentation:
+- changed-files:
+  - any-glob-to-any-file:
+    - "doc/source/*"
+    - "README.rst"
+    - "ignore_words.txt"
+
+maintenance:
+- changed-files:
+  - any-glob-to-any-file:
+    - ".github/**/*"
+    - "Makefile"
+    - "requirements_docs.txt"
+    - "requirements_style.txt"
